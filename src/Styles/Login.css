@@ -1,0 +1,153 @@
+.login{
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    flex-direction: column;
+    background-color:#000000;
+    position: absolute;
+    z-index: 2000px;
+    top:8%;
+    right: 20px;
+    padding-bottom: 40px;
+    width: 19%;
+    height: 400px;
+
+}.login .login1_login> form{
+display: flex;
+font-size: 15px;
+flex-direction: column;
+align-items: center;
+
+color:aliceblue;
+
+}
+
+
+.input{
+    padding: 10px;
+   width: 200px;
+    font-size: 12px;
+    border-radius: 20px;
+    
+}
+.eye{
+
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #ffffff;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+    text-align: center;
+    position: absolute;
+    bottom: 51%;
+    right: 22%;
+    border-radius: 50%;
+       
+}
+.eye>.icon{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    background-color: #e69f10;
+    color: rgb(0, 0, 0);
+    font-size: 25px;
+ 
+    text-align: center;
+    position: absolute;
+    
+    bottom: 43%;
+    border-radius: 50%;
+    
+}.eye3{
+   
+    text-decoration: none;
+    background-color: #e69f10;
+    width: 100px;
+    height: 50px;
+    padding: 20px;
+    color:aliceblue;
+    text-align: center;
+    cursor: pointer;
+}.create{
+    
+    text-decoration: none;
+    background-color: #e69f10;
+    width: 100px;
+    height: 35px;
+   
+    margin: 20px;
+    color:aliceblue;
+    text-align: center;
+    cursor: pointer;
+
+}.button_login p> button{
+  
+
+    text-align: center;
+    text-decoration: none;
+   background-color:#e69f10 ;
+    width: 100px;
+    margin-right: 40px;
+    padding: 10px;
+    color:aliceblue;
+    cursor: pointer;
+ 
+   
+}
+
+.button_login>p{
+    text-align: center;
+    text-decoration: none;
+   margin-right: 20px;
+    width: 100px;
+    padding: 10px;
+    color:aliceblue;
+    cursor: pointer;
+   
+}.button_login{
+    display: flex;
+    justify-content: center;
+     align-items: center;
+     flex-direction: row;
+    
+}@media(max-width:1800px){
+    
+    .eye{
+        font-size: 25px;
+        bottom: 51%;
+         right: 14%;
+    }
+}@media(max-width:1480px){
+    
+    .input{
+        padding: 10px;
+       width: 150px;
+        font-size: 12px;
+        border-radius: 20px; 
+
+    }.button_login p> button{
+    
+    width: 80px;
+    margin-right: 20px;
+    padding: 10px;
+    color:aliceblue;
+    cursor: pointer;
+}
+}@media(max-width:1479px){
+    .login{
+        top:8%;
+   right: 5%;
+    padding-bottom: 40px;
+    width: 23%;
+    height: 350px;
+    
+    }.eye{
+ font-size: 25px;
+  bottom: 51%;
+   right: 23%;
+       
+}
+    
+
+}
